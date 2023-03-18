@@ -13,9 +13,7 @@
         margin: 0;
         font-family: 'Quicksand', sans-serif;
       }
-      .inactive {
-        display: none;
-      }
+     
       nav {
         display: flex;
         justify-content: space-between;
@@ -60,7 +58,18 @@
         color: var(--very-light-pink);
         font-size: var(--sm);
         margin-right: 12px;
+        cursor: pointer;
+        user-select: none;
+        
       }
+
+      .navbar-email:hover {
+        border: 1px solid var(--hospital-green);
+        color: var(--hospital-green);
+        padding: 4px;
+        border-radius: 8px;
+      }
+
       .navbar-shopping-cart {
         position: relative;
       }
@@ -116,6 +125,11 @@
         margin-bottom: 20px;
         display: inline-block;
       }
+
+      .inactive {
+        display: none;
+      }
+
       @media (max-width: 640px) {
         .menu {
           display: block;
