@@ -136,7 +136,7 @@ producList.push({
 
 for (product of producList){
 
-    //aqui creamos creamos cada elemento del html
+    //aqui creamos cada elemento del html
 
     const productCard = document.createElement('div');
     productCard.classList.add('product-card');
@@ -173,7 +173,7 @@ for (product of producList){
 }
 
 
-// todo esto que hicimos se puede incluir en una función con el fin de reutilizar codigo mas adelante, de esta manera:
+// Commo buenas practicas se debería incluir lo anterior en una función con el fin de reutilizar codigo mas adelante, de esta manera:
 
 // function renderProductList(array){
 //     for (product of array){
